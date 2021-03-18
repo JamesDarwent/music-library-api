@@ -12,6 +12,8 @@ app.post('/artists', artistControllers.create);
 app.get('/artists', artistControllers.list);
 app.get('/artists/:artistId', artistControllers.getArtistById);
 app.patch('/artists/:artistId', artistControllers.update);
+app.delete('/artists/:artistId', artistControllers.delete);
+
 
 
 
